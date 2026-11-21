@@ -122,10 +122,10 @@ final class AccountsViewController: UIViewController {
         card.clipsToBounds = true
         card.translatesAutoresizingMaskIntoConstraints = false
 
-        let caption = UILabel()
-        caption.text = "Tổng số dư"
-        caption.font = TCB.font(12)
-        caption.textColor = UIColor.white.withAlphaComponent(0.85)
+        let labelImage = UIImage(named: "AccountLabel")?.withRenderingMode(.alwaysTemplate)
+        let caption = UIImageView(image: labelImage ?? UIImage())
+        caption.contentMode = .scaleAspectFit
+        caption.tintColor = UIColor.white.withAlphaComponent(0.9)
         caption.translatesAutoresizingMaskIntoConstraints = false
 
         let amount = UILabel()
@@ -147,6 +147,8 @@ final class AccountsViewController: UIViewController {
 
             caption.leadingAnchor.constraint(equalTo: card.leadingAnchor, constant: 18),
             caption.topAnchor.constraint(equalTo: card.topAnchor, constant: 18),
+            caption.widthAnchor.constraint(equalToConstant: 190),
+            caption.heightAnchor.constraint(equalToConstant: 28),
 
             amount.leadingAnchor.constraint(equalTo: caption.leadingAnchor),
             amount.topAnchor.constraint(equalTo: caption.bottomAnchor, constant: 6),
