@@ -30,6 +30,7 @@
 		BB0000000000000000000015 /* BankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000017 /* BankState.swift */; };
 		BB0000000000000000000016 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000018 /* QRScannerViewController.swift */; };
 		BB0000000000000000000017 /* Flows.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000019 /* Flows.swift */; };
+		BB0000000000000000000018 /* Archivo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000001A /* Archivo-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		AA0000000000000000000017 /* BankState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankState.swift; sourceTree = "<group>"; };
 		AA0000000000000000000018 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
 		AA0000000000000000000019 /* Flows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flows.swift; sourceTree = "<group>"; };
+		AA000000000000000000001A /* Archivo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Archivo-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				AA0000000000000000000008 /* LoginViewController.swift */,
 				AA0000000000000000000018 /* QRScannerViewController.swift */,
 				AA0000000000000000000019 /* Flows.swift */,
+				AA000000000000000000001A /* Archivo-Medium.ttf */,
 				AA0000000000000000000009 /* RootTabBarController.swift */,
 				AA000000000000000000000A /* HomeViewController.swift */,
 				AA000000000000000000000B /* AccountsViewController.swift */,
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB0000000000000000000011 /* Assets.xcassets in Resources */,
+				BB0000000000000000000018 /* Archivo-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
