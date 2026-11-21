@@ -1,0 +1,46 @@
+name: Build IPA (unsigned)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: macos-14
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_15.4.app/Contents/Developer || true
+
+      - name: Show SDK
+        run: xcodebuild -version && xcodebuild -showsdks
+
+      - name: Build unsigned
+        run: |
+          xcodebuild \
+            -project TCBClone.xcodeproj \
+            -target TCBClone \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath Build \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_STYLE=Manual \
+            build
+
+      - name: Pack IPA
+        run: |
+          APP="Build/Build/Products/Release-iphoneos/TCBClone.app"
+          test -d "$APP" || { echo "missing $APP"; exit 1; }
+          rm -rf Payload
+          mkdir -p Payload
+          cp -R "$APP" Payload/TCBClone.app
+          zip -qry TCBClone-unsigned.ipa Payload
+          ls -lh TCBClone-unsigned.ipa
+
+      - name: Upload IPA
+        uses: actions/upload-artifact@v4
+        with:
+          name: TCBClone-unsigned
+          path: TCBClone-unsigned.ipa
