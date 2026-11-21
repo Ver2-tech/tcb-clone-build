@@ -1,0 +1,7 @@
+name: Test Mac 13
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: macos-13
+    steps:
+      - run: sw_vers
