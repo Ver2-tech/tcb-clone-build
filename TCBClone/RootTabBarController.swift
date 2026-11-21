@@ -54,6 +54,9 @@ final class RootTabBarController: UITabBarController {
     // MARK: Diamond tab glyph
 
     static func diamondIcon(size: CGFloat = 26) -> UIImage {
+        if let real = UIImage(named: "RealDiamond") {
+            return real.withRenderingMode(.alwaysTemplate)
+        }
         let renderer = UIGraphicsImageRenderer(size: CGSize(width: size, height: size * 0.78))
         return renderer.image { ctx in
             let rect = CGRect(x: 0, y: 0, width: size, height: size * 0.78)
