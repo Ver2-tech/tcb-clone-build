@@ -22,12 +22,12 @@ final class RootTabBarController: UITabBarController {
         item.normal.iconColor = TCB.inkSoft
         item.normal.titleTextAttributes = [
             .foregroundColor: TCB.ink,
-            .font: TCB.font(9.5, .medium)
+            .font: TCB.brandFont(9.5)
         ]
         item.selected.iconColor = TCB.red
         item.selected.titleTextAttributes = [
             .foregroundColor: TCB.red,
-            .font: TCB.font(9.5, .semibold)
+            .font: TCB.brandFont(9.5)
         ]
 
         tabBar.standardAppearance = appearance
