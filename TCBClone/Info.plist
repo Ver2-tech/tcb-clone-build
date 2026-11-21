@@ -20,6 +20,10 @@
 	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Archivo-Medium.ttf</string>
+	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>Techcombank cần quyền camera để quét mã QR thanh toán và chuyển tiền.</string>
 	<key>LSRequiresIPhoneOS</key>
