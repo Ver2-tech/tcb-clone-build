@@ -291,7 +291,7 @@ final class HomeViewController: UIViewController, QRScannerDelegate {
 
         let items: [(String, String)] = [
             ("Gửi\ntiết kiệm", "banknote"),
-            ("Thanh toán\nhoá đơn", "doc.text"),
+            ("Thanh toán\nhóa đơn", "doc.text"),
             ("Quét\nmã QR", "qrcode.viewfinder"),
             ("Sinh lời\ntự động", "arrow.triangle.2.circlepath"),
             ("Tính năng\nkhác", "arrow.right")
