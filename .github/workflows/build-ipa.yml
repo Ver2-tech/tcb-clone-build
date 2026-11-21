@@ -17,7 +17,10 @@ jobs:
 
       - name: Pack
         run: |
-          APP=$(find "$HOME/Library/Developer/Xcode/DerivedData" -path '*/Build/Products/Release-iphoneos/TCBClone.app' -type d | head -1)
+          APP="$PWD/build/Release-iphoneos/TCBClone.app"
+          if [ ! -d "$APP" ]; then
+            APP=$(find "$HOME/Library/Developer/Xcode/DerivedData" -path '*/Build/Products/Release-iphoneos/TCBClone.app' -type d | head -1)
+          fi
           echo "APP=$APP"
           test -n "$APP" && test -d "$APP"
           mkdir -p Payload
