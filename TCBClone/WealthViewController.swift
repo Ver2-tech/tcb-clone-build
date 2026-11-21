@@ -361,7 +361,6 @@ final class WealthViewController: UIViewController {
                 bar.centerYAnchor.constraint(equalTo: row.centerYAnchor),
                 bar.widthAnchor.constraint(equalToConstant: 8),
                 bar.heightAnchor.constraint(equalToConstant: 8),
-                bar.layer.cornerRadius = 4,
 
                 label.leadingAnchor.constraint(equalTo: bar.trailingAnchor, constant: 10),
                 label.centerYAnchor.constraint(equalTo: row.centerYAnchor),
