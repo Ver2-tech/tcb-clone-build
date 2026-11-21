@@ -64,7 +64,7 @@ final class SettingsViewController: UIViewController {
         let support = MenuRow(icon: "questionmark.circle", title: "Trung tâm hỗ trợ")
         support.addTarget(self, action: #selector(openSupport), for: .touchUpInside)
 
-        let about = MenuRow(icon: "info.circle", title: "Về ứng dụng", detail: "6.3.6")
+        let about = MenuRow(icon: "info.circle", title: "Về ứng dụng", detail: "4.0.36")
         about.addTarget(self, action: #selector(openAbout), for: .touchUpInside)
 
         content.addArrangedSubview(SectionHeader("Tiện ích"))
@@ -200,7 +200,7 @@ final class SettingsViewController: UIViewController {
     }
 
     @objc private func openAbout() {
-        alert("Techcombank Mobile", "Phiên bản mô phỏng 6.3.6\nDựng theo giao diện App Store.\nKhông phải ứng dụng chính thức.")
+        alert("Techcombank Mobile", "Phiên bản mô phỏng 4.0.36\nDựng theo giao diện App Store.\nKhông phải ứng dụng chính thức.")
     }
 
     @objc private func logoutTapped() {
