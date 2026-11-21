@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000001 /* AppDelegate.swift */; };
+		BB0000000000000000000002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000002 /* SceneDelegate.swift */; };
+		BB0000000000000000000003 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000003 /* Theme.swift */; };
+		BB0000000000000000000004 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000004 /* Components.swift */; };
+		BB0000000000000000000005 /* BankNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000005 /* BankNotification.swift */; };
+		BB0000000000000000000006 /* NotificationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000006 /* NotificationEngine.swift */; };
+		BB0000000000000000000007 /* NotificationPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000007 /* NotificationPreview.swift */; };
+		BB0000000000000000000008 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000008 /* LoginViewController.swift */; };
+		BB0000000000000000000009 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000009 /* RootTabBarController.swift */; };
+		BB000000000000000000000A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000A /* HomeViewController.swift */; };
+		BB000000000000000000000B /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000B /* AccountsViewController.swift */; };
+		BB000000000000000000000C /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000C /* CardsViewController.swift */; };
+		BB000000000000000000000D /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000D /* OffersViewController.swift */; };
+		BB000000000000000000000E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000E /* SettingsViewController.swift */; };
+		BB000000000000000000000F /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000000F /* ComposeViewController.swift */; };
+		BB0000000000000000000010 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000010 /* TransferViewController.swift */; };
+		BB0000000000000000000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000011 /* Assets.xcassets */; };
+		BB0000000000000000000012 /* HeroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000014 /* HeroScene.swift */; };
+		BB0000000000000000000013 /* WealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000015 /* WealthViewController.swift */; };
+		BB0000000000000000000014 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000016 /* RewardsViewController.swift */; };
+		BB0000000000000000000015 /* BankState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000017 /* BankState.swift */; };
+		BB0000000000000000000016 /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000018 /* QRScannerViewController.swift */; };
+		BB0000000000000000000017 /* Flows.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0000000000000000000019 /* Flows.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA0000000000000000000002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA0000000000000000000003 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AA0000000000000000000004 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		AA0000000000000000000005 /* BankNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankNotification.swift; sourceTree = "<group>"; };
+		AA0000000000000000000006 /* NotificationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationEngine.swift; sourceTree = "<group>"; };
+		AA0000000000000000000007 /* NotificationPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPreview.swift; sourceTree = "<group>"; };
+		AA0000000000000000000008 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000009 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		AA000000000000000000000A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AA000000000000000000000B /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		AA000000000000000000000C /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		AA000000000000000000000D /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		AA000000000000000000000E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AA000000000000000000000F /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000010 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA0000000000000000000012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA0000000000000000000013 /* TCBClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCBClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0000000000000000000014 /* HeroScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroScene.swift; sourceTree = "<group>"; };
+		AA0000000000000000000015 /* WealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WealthViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000016 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000017 /* BankState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankState.swift; sourceTree = "<group>"; };
+		AA0000000000000000000018 /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		AA0000000000000000000019 /* Flows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flows.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD000000000000000000000B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC0000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				CC0000000000000000000002 /* TCBClone */,
+				CC0000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000002 /* TCBClone */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000001 /* AppDelegate.swift */,
+				AA0000000000000000000002 /* SceneDelegate.swift */,
+				AA0000000000000000000003 /* Theme.swift */,
+				AA0000000000000000000017 /* BankState.swift */,
+				AA0000000000000000000004 /* Components.swift */,
+				AA0000000000000000000014 /* HeroScene.swift */,
+				AA0000000000000000000005 /* BankNotification.swift */,
+				AA0000000000000000000006 /* NotificationEngine.swift */,
+				AA0000000000000000000007 /* NotificationPreview.swift */,
+				AA0000000000000000000008 /* LoginViewController.swift */,
+				AA0000000000000000000018 /* QRScannerViewController.swift */,
+				AA0000000000000000000019 /* Flows.swift */,
+				AA0000000000000000000009 /* RootTabBarController.swift */,
+				AA000000000000000000000A /* HomeViewController.swift */,
+				AA000000000000000000000B /* AccountsViewController.swift */,
+				AA000000000000000000000C /* CardsViewController.swift */,
+				AA000000000000000000000D /* OffersViewController.swift */,
+				AA0000000000000000000016 /* RewardsViewController.swift */,
+				AA000000000000000000000E /* SettingsViewController.swift */,
+				AA000000000000000000000F /* ComposeViewController.swift */,
+				AA0000000000000000000010 /* TransferViewController.swift */,
+				AA0000000000000000000015 /* WealthViewController.swift */,
+				AA0000000000000000000011 /* Assets.xcassets */,
+				AA0000000000000000000012 /* Info.plist */,
+			);
+			path = TCBClone;
+			sourceTree = "<group>";
+		};
+		CC0000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000000000000000000013 /* TCBClone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0000000000000000000002 /* TCBClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0000000000000000000004 /* Build configuration list for PBXNativeTarget "TCBClone" */;
+			buildPhases = (
+				DD000000000000000000000A /* Sources */,
+				DD000000000000000000000B /* Frameworks */,
+				DD000000000000000000000C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCBClone;
+			productName = TCBClone;
+			productReference = AA0000000000000000000013 /* TCBClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DD0000000000000000000002 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = DD0000000000000000000003 /* Build configuration list for PBXProject "TCBClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = CC0000000000000000000001;
+			productRefGroup = CC0000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0000000000000000000002 /* TCBClone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD000000000000000000000C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD000000000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0000000000000000000001 /* AppDelegate.swift in Sources */,
+				BB0000000000000000000002 /* SceneDelegate.swift in Sources */,
+				BB0000000000000000000003 /* Theme.swift in Sources */,
+				BB0000000000000000000004 /* Components.swift in Sources */,
+				BB0000000000000000000005 /* BankNotification.swift in Sources */,
+				BB0000000000000000000006 /* NotificationEngine.swift in Sources */,
+				BB0000000000000000000007 /* NotificationPreview.swift in Sources */,
+				BB0000000000000000000008 /* LoginViewController.swift in Sources */,
+				BB0000000000000000000009 /* RootTabBarController.swift in Sources */,
+				BB000000000000000000000A /* HomeViewController.swift in Sources */,
+				BB000000000000000000000B /* AccountsViewController.swift in Sources */,
+				BB000000000000000000000C /* CardsViewController.swift in Sources */,
+				BB000000000000000000000D /* OffersViewController.swift in Sources */,
+				BB000000000000000000000E /* SettingsViewController.swift in Sources */,
+				BB000000000000000000000F /* ComposeViewController.swift in Sources */,
+				BB0000000000000000000010 /* TransferViewController.swift in Sources */,
+				BB0000000000000000000012 /* HeroScene.swift in Sources */,
+				BB0000000000000000000013 /* WealthViewController.swift in Sources */,
+				BB0000000000000000000014 /* RewardsViewController.swift in Sources */,
+				BB0000000000000000000015 /* BankState.swift in Sources */,
+				BB0000000000000000000016 /* QRScannerViewController.swift in Sources */,
+				BB0000000000000000000017 /* Flows.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD0000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD0000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0000000000000000000007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TCBClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcb.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0000000000000000000008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TCBClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.3.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tcb.mobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0000000000000000000003 /* Build configuration list for PBXProject "TCBClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0000000000000000000005 /* Debug */,
+				DD0000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0000000000000000000004 /* Build configuration list for PBXNativeTarget "TCBClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0000000000000000000007 /* Debug */,
+				DD0000000000000000000008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0000000000000000000001 /* Project object */;
+}
