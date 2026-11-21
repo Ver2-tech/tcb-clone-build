@@ -233,7 +233,7 @@ final class BillsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = TCB.canvas
-        applyTCBNavigationBar("Thanh toán hoá đơn")
+        applyTCBNavigationBar("Thanh toán hóa đơn")
         build()
     }
 
