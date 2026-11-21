@@ -45,6 +45,10 @@ enum TCB {
     static func mono(_ size: CGFloat, _ weight: UIFont.Weight = .regular) -> UIFont {
         UIFont.monospacedDigitSystemFont(ofSize: size, weight: weight)
     }
+    /// Font thật trích từ TCBRetail.app 4.0.11.
+    static func brandFont(_ size: CGFloat) -> UIFont {
+        UIFont(name: "Archivo-Medium", size: size) ?? UIFont.systemFont(ofSize: size, weight: .medium)
+    }
 
     // Metrics
     static let radius: CGFloat  = 20
